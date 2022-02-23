@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+    padding: 10px;
+    font-size: 15px;
+    margin: 6px 0;
+}
+
+button {
+    padding: 10px;
+    background: darkgreen;
+    color: white;
+}
+
+.join-block button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.join-block {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chat {
+    display: flex;
+    border: 1px solid pink;
+    padding: 20px;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.chat-users {
+    width: 235px;
+    background: #e9e9e9;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.chat-messages {
+    width: 445px
+}
+
+textarea {
+    width: 100%;
+    margin: 20px auto 10px auto;
+}
+
+.message p {
+    display: inline-flex;
+    border-radius: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #7160ff;
+    padding: 10px 15px 15px;
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.message {
+    padding: 5px;
+    max-width: 280px;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+.messages {
+    height: 300px;
+    overflow: auto;
+}
+
+.chat-users ul {
+    list-style: none;
+    padding: 0;
+}
+
+.chat-users ul li {
+    width: 185px;
+    padding: 7px 10px;
+    background: white;
+    margin-top: 10px;
+}
+
+::-webkit-scrollbar-button {
+    background-repeat: no-repeat;
+    width: 6px;
+    height: 0
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e9e9e9;
+    box-shadow: 0 0 3px #ffffff inset;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #7160ff;
+    box-shadow: 0 1px 1px #fff inset;
+    background-image: url('https://yraaa.ru/_pu/24/59610063.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+::-webkit-resizer {
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 0;
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+}
